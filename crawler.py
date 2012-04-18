@@ -50,9 +50,9 @@ def extractURL(DBName,collection,urlstr):
 				print "the URL being scrapped: "+url1["child-URL"]
 				urlstr=url1["child-URL"]
 				pid=url1["id"]
-				#if urlstr[0]!='/':
+				if urlstr[0]!='/':
 	
-				break
+				        break
 		else:
 			break
         c.disconnect()
